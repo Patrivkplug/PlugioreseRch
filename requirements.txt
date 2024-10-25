@@ -12,7 +12,7 @@ markdown
 langchain
 langchain_community
 langchain-openai
-langgraph
+langgraph==0.0.25
 tiktoken
 gpt-researcher
 arxiv
