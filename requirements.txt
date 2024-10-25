@@ -1,4 +1,5 @@
 # dependencies
+pip
 beautifulsoup4
 colorama
 md2pdf
@@ -29,6 +30,7 @@ unstructured
 json_repair
 json5
 loguru
+pip install --upgrade pip
 
 # uncomment for testing
 # pytest
