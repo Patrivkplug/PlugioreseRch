@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI + Netlify</title>
+</head>
+<body>
+    <h1>FastAPI + Netlify Integration</h1>
+    <div id="response"></div>
+    <script>
+        fetch('/api/hello')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('response').textContent = data.message;
+            });
+    </script>
+</body>
+</html>
