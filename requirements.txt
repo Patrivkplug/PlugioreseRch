@@ -1,37 +1,35 @@
-# dependencies
-pip
-beautifulsoup4
-colorama
-md2pdf
-python-dotenv
-pyyaml
-uvicorn
-pydantic
-fastapi
-python-multipart
-markdown
-langchain
-langchain_community
-langchain-openai
-langgraph==0.0.25
-tiktoken
-gpt-researcher
-arxiv
-PyMuPDF
-requests
-jinja2
-aiofiles
-mistune
-python-docx
-htmldocx
-lxml_html_clean
-websockets
-unstructured
-json_repair
-json5
-loguru
-pip install --upgrade pip
+# Web Framework
+fastapi==0.109.2
+uvicorn==0.27.1
+python-multipart==0.0.9
 
-# uncomment for testing
-# pytest
-# pytest-asyncio
+# Data Processing
+pydantic==2.6.1
+beautifulsoup4==4.12.2
+unstructured==0.11.8
+
+# Document Processing
+markdown==3.5.2
+mistune==3.0.2
+python-docx==1.1.0
+PyMuPDF==1.23.26
+
+# LangChain and AI
+langchain==0.1.6
+langchain-community==0.0.19
+langchain-openai==0.0.5
+langgraph==0.0.25
+tiktoken==0.5.2
+
+# Utilities
+requests==2.31.0
+python-dotenv==1.0.1
+PyYAML==6.0.1
+colorama==0.4.6
+Jinja2==3.1.3
+aiofiles==23.2.1
+loguru==0.7.2
+
+# Testing (uncomment for development)
+# pytest==8.0.0
+# pytest-asyncio==0.23.5
